@@ -23,7 +23,7 @@ body{
   color: black;
   padding: 20px;
   /* margin-top: 100px; */
-  
+
 
 }
 
@@ -281,20 +281,25 @@ body{
  margin-bottom: 15px;
  padding-left: 2px;
 
+ /* ending skill section */
+
+/* support section */
+
+
 }
 .need-support-container{
   border: 1px solid white;
-  max-width: 90%;
-  height: 400px;
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 90%;
+  height: 300px;
   align-items: center;
   background-image: url(./assets/handshake.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
   border-radius: 20px;
+  image-resolution: 100px;
   margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)
 }
 
 .need-support-container h1{
@@ -327,4 +332,11 @@ body{
   margin-top: 10px;
   font-weight: bold;
 
+}
+
+/* end suppor section */
+
+.last{
+  margin-top: 100px;
+  margin-left: 70px;
 }
