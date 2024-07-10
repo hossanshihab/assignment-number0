@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Azeret Mono", monospace;
+}
+
+
+/* my hero section start here */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('./assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  color: #333;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-image {
+  width: 250px;
+  height: 240px;
+}
+
+.hero-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 400;
+  color: #777;
+
+}
+
+.hero-button {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* my hero section ends here */
+
+
+/* my second section starts here */
+
+.why-web-development {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+
+
+.section-subtitle {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  max-width: 400px;
+  text-align: left;
+  margin: 20px;
+}
+
+
+.content-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.more-button {
+  color: #333;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.image-content{
+  max-width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.why-web-development1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 40px 20px;
+
+}
+
+.image-content1{
+  max-width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.content1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-content1{
+  max-width: 400px;
+  text-align: left;
+  margin: 20px;
+}
+
+
+
+.why-web-development2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 40px 20px;
+
+
+}
+
+.image-content2{
+  max-width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.content2{
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content-title2{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-content2{
+  max-width: 400px;
+  text-align: left;
+  margin: 20px;
+}
+
+.more-button2 {
+  color: #333;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.content-description2 {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.inspiration-text{
+  text-align: center;
+  justify-content: center;
+}
+
+
+.inspiration-text p{
+    text-align: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.video{
+  text-align: center;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+}
