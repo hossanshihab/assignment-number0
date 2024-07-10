@@ -215,3 +215,64 @@ body{
 .video-container{
   text-align: center;
 }
+
+
+.mytarget-text p{
+  margin-top: 20px;
+
+}
+
+/* skills section */
+
+.skill-container{
+  display: flex;
+  gap: 35px;
+  text-align: left;
+  justify-content: left;
+  margin-top: 60px;
+  align-items: center;
+  margin-left: 150px;
+  
+}
+.skill-container a{
+  color: black;
+  font-size: 30px;
+  margin-top: 59px;
+}
+.skill-container h4{
+  margin-top: 20px;
+  font-size: 30px;
+}
+.skill-container p{
+  margin-top:10px ;
+}
+
+
+
+
+.heading{
+  text-align: center;
+  justify-content:center ;
+  margin-top: 30px;
+  
+
+}
+.heading h3{
+  font-size: 30px;
+}
+.heading p{
+  margin-top: 10px;
+}
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+  border-radius: 5px;
+
+ 
+}
+.skill img{
+ margin-bottom: 15px;
+ padding-left: 2px;
+
+}
